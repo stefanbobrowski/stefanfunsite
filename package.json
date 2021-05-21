@@ -1,0 +1,36 @@
+{
+  "name": "stefansite",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "node distCleaner.js",
+    "start": "parcel src/index.html --open",
+    "prod": "parcel build src/index.html"
+  },
+  "keywords": [
+    "portfolio, React"
+  ],
+  "author": "Stefan Bobrowski",
+  "license": "MIT",
+  "dependencies": {
+    "assets": "^3.0.1",
+    "autoprefixer": "^9.7.4",
+    "node-sass": "^4.13.1",
+    "phaser": "^3.22.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "hookrouter": "^1.2.3",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}
